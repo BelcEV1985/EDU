@@ -48,7 +48,9 @@ https://github.com/BelcEV1985/shvirtd-example-python/blob/main/backup_mysql.sh
 ![6 0 3](https://github.com/user-attachments/assets/2025840e-b0c8-48d5-bc66-354a8d53f621)
 ![6 0 3 2](https://github.com/user-attachments/assets/98c18824-21d8-409c-8d8d-5e5f8c73b319)
 
+
 Задача 6.1
 
+![6 1](https://github.com/user-attachments/assets/4548a902-2ce5-40d7-8e9d-86cc9a071a52)
 
 
