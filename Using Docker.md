@@ -29,3 +29,23 @@ https://github.com/BelcEV1985/shvirtd-example-python/blob/main/main4.py
 https://github.com/BelcEV1985/shvirtd-example-python/blob/main/setup_and_run.sh
 ![4 4](https://github.com/user-attachments/assets/79077a14-0361-4b9c-8d8c-519675135e45)
 ![4 6](https://github.com/user-attachments/assets/01384f72-c335-4208-9621-302b0904dfc1)
+
+Задача 5
+
+![5](https://github.com/user-attachments/assets/956805b5-9bd9-475e-831a-1b7fee9c80c2)
+а что бы в git не уехало .env в .gitignore добавлен.
+
+
+Задача 6
+
+![6 0 2](https://github.com/user-attachments/assets/8bdeb695-c456-44e3-841c-8fb0a4122e1d)
+![6 0 2 1](https://github.com/user-attachments/assets/5458467d-78c1-4ebd-9c40-9f6ea7183475)
+![6 0 1](https://github.com/user-attachments/assets/06207e1b-ae93-4e60-b8df-5732f0af8bda)
+![6 0 3 1](https://github.com/user-attachments/assets/b405eefb-8062-4941-984c-d82a3fe9cfc2)
+![6 0 3](https://github.com/user-attachments/assets/2025840e-b0c8-48d5-bc66-354a8d53f621)
+![6 0 3 2](https://github.com/user-attachments/assets/98c18824-21d8-409c-8d8d-5e5f8c73b319)
+
+Задача 6.1
+
+
+
