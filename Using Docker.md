@@ -16,6 +16,7 @@ https://github.com/BelcEV1985/shvirtd-example-python/blob/main/main4.py
 
 
 Задача 2
+
 Начал делать но есть проблемы с сетью, сам container registry создал.
 ![2 1](https://github.com/user-attachments/assets/ec6079cd-5fca-4675-9331-64b2c8833ce1)
 
@@ -26,12 +27,14 @@ https://github.com/BelcEV1985/shvirtd-example-python/blob/main/main4.py
 ![3 3](https://github.com/user-attachments/assets/d184df69-89fc-42ef-b0ec-7cb232dc380c)
 
 Задача 4
+
 https://github.com/BelcEV1985/shvirtd-example-python/blob/main/setup_and_run.sh
 ![4 4](https://github.com/user-attachments/assets/79077a14-0361-4b9c-8d8c-519675135e45)
 ![4 6](https://github.com/user-attachments/assets/01384f72-c335-4208-9621-302b0904dfc1)
 
 Задача 5
 
+https://github.com/BelcEV1985/shvirtd-example-python/blob/main/backup_mysql.sh
 ![5](https://github.com/user-attachments/assets/956805b5-9bd9-475e-831a-1b7fee9c80c2)
 а что бы в git не уехало .env в .gitignore добавлен.
 
