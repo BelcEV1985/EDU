@@ -84,7 +84,9 @@ resource "docker_container" "nginx_container" {
 в CI/CD ошибочный код может внести изменения в инфраструктуру без предупреждений (не секурно особенно на проде)
 
 7. Уничтожьте созданные ресурсы с помощью terraform. Убедитесь, что все ресурсы удалены.
+
 terraform destroy
+
 
 ![07](https://github.com/user-attachments/assets/451186c8-acec-4883-9f1b-eb49711c4b84)
 
