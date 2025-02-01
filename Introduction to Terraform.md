@@ -50,7 +50,7 @@ name  = "example_${random_password.random_string_FAKE.resulT}"
 Не определен ресурс
 
 
-5. Выполните код. В качестве ответа приложите: исправленный фрагмент кода и вывод команды docker ps.
+5.Выполните код. В качестве ответа приложите: исправленный фрагмент кода и вывод команды docker ps.
 
 resource "docker_image" "nginx" {
   name         = "nginx:latest"
@@ -69,7 +69,7 @@ resource "docker_container" "nginx_container" {
 ![05](https://github.com/user-attachments/assets/2048a9f9-5c62-4fb6-b5fd-f9706d23564e)
 
 
-6. Замените имя docker-контейнера в блоке кода на hello_world. Не перепутайте имя контейнера и имя образа. Мы всё ещё продолжаем использовать name = "nginx:latest".
+6.Замените имя docker-контейнера в блоке кода на hello_world. Не перепутайте имя контейнера и имя образа. Мы всё ещё продолжаем использовать name = "nginx:latest".
 resource "docker_container" "nginx_container" {
   image = docker_image.nginx.image_id
   name  = "hello_world"
@@ -88,7 +88,7 @@ resource "docker_container" "nginx_container" {
 Безопасность
 в CI/CD ошибочный код может внести изменения в инфраструктуру без предупреждений (не секурно особенно на проде)
 
-7. Уничтожьте созданные ресурсы с помощью terraform. Убедитесь, что все ресурсы удалены.
+7.Уничтожьте созданные ресурсы с помощью terraform. Убедитесь, что все ресурсы удалены.
 
 terraform destroy
 
@@ -96,7 +96,7 @@ terraform destroy
 ![07](https://github.com/user-attachments/assets/451186c8-acec-4883-9f1b-eb49711c4b84)
 
 
-8. Объясните, почему при этом не был удалён docker-образ nginx:latest. Ответ ОБЯЗАТЕЛЬНО НАЙДИТЕ В ПРЕДОСТАВЛЕННОМ КОДЕ, а затем ОБЯЗАТЕЛЬНО ПОДКРЕПИТЕ строчкой из документации terraform провайдера docker. (ищите в классификаторе resource docker_image )
+8.Объясните, почему при этом не был удалён docker-образ nginx:latest. Ответ ОБЯЗАТЕЛЬНО НАЙДИТЕ В ПРЕДОСТАВЛЕННОМ КОДЕ, а затем ОБЯЗАТЕЛЬНО ПОДКРЕПИТЕ строчкой из документации terraform провайдера docker. (ищите в классификаторе resource docker_image )
 
 Это случайно нашел когда 4ое задание делал. Еще удивился, как удобно.
 resource "docker_image" "nginx" {
