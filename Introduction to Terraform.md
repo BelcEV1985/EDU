@@ -81,6 +81,7 @@ resource "docker_container" "nginx_container" {
 ![06](https://github.com/user-attachments/assets/88404a88-1910-4fe7-a908-4a67eb5073ae)
 
 Опасность использования -auto-approve:
+
 Отсутствие контроля
 -auto-approve отключает интерактивное подтверждение
 Риск повреждения инфраструктуры
