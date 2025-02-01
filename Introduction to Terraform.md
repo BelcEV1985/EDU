@@ -6,6 +6,7 @@
 3.Найдите в terraform.tfstate секретное содержимое созданного ресурса random_password, пришлите в качестве ответа конкретный ключ и его значение.
    
 "bcrypt_hash": "$2a$10$Wvc.VscMkVOVCXFDnvaE8uXquEFoHtzGggj6xDeFBFEakhyXNPvbm"
+
 "result": "Fl01G3yX3qVCp9Ni"
 
 
