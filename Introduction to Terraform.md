@@ -11,6 +11,7 @@
 
 
 4.Раскомментируйте блок кода, примерно расположенный на строчках 29–42 файла main.tf. Выполните команду terraform validate. Объясните, в чём заключаются намеренно допущенные ошибки.Исправьте их.
+
 Ошибка 1: Отсутствие имени ресурса
 
 resource "docker_image" {
@@ -50,6 +51,7 @@ name  = "example_${random_password.random_string_FAKE.resulT}"
 
 
 5. Выполните код. В качестве ответа приложите: исправленный фрагмент кода и вывод команды docker ps.
+
 resource "docker_image" "nginx" {
   name         = "nginx:latest"
   keep_locally = true
