@@ -46,10 +46,3 @@ core_fraction -  Доля вычислительной мощности проц
 Задание 6
 
 ![6 4](https://github.com/user-attachments/assets/c9fbce8d-810c-404c-93c6-b11a8544e492)
-
-
-Как итог 2 рабочие ВМ, проверенно ужу утром)))
-
-![6 5](https://github.com/user-attachments/assets/2274f34e-b406-40b2-99fe-b5d08b365543)
-
-
