@@ -9,8 +9,11 @@ https://github.com/BelcEV1985/ter-homeworks/tree/main/02/src
 
 1.4 Ответы: 
 main.tf
+
 platform_id = "standart-v4" двойная ошибка:
+
 standard - правильное написание
+
 v4 - у яндекса 3 платформы
 
 resources - правильное написание resource
