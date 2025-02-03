@@ -1,5 +1,12 @@
 Задание 1
 
+Правка: 
+
+Ссылка на проект:
+https://github.com/BelcEV1985/ter-homeworks/tree/main/02/src
+
+
+
 1.4 Ответы: 
 main.tf
 platform_id = "standart-v4" двойная ошибка:
@@ -11,12 +18,6 @@ resources - правильное написание resource
 
 
 1.5 Ответы: 
-
-Правка: 
-
-Ссылка на проект:
-https://github.com/BelcEV1985/ter-homeworks/tree/main/02/src
-
 
 ![1 5](https://github.com/user-attachments/assets/148e11da-6ea5-4907-b2b6-28aad61c371f)
 
