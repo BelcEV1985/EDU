@@ -12,6 +12,12 @@ resources - правильное написание resource
 
 1.5 Ответы: 
 
+Правка: 
+
+Ссылка на проект:
+https://github.com/BelcEV1985/ter-homeworks/tree/main/02/src
+
+
 ![1 5](https://github.com/user-attachments/assets/148e11da-6ea5-4907-b2b6-28aad61c371f)
 
 1.6 Ответы: 
@@ -26,15 +32,28 @@ core_fraction -  Доля вычислительной мощности проц
 
 Задание 3
 
+Правка: 
+
+https://github.com/BelcEV1985/ter-homeworks/blob/main/02/src/main.tf
+
 ![3 3](https://github.com/user-attachments/assets/15aeb10b-e5a1-49f7-8c07-0451694eb38b)
 
 
 Задание 4
 
+Правка:
+
+https://github.com/BelcEV1985/ter-homeworks/blob/main/02/src/outputs.tf
+
 ![4 2](https://github.com/user-attachments/assets/81f13b54-b109-49e9-b554-54234d36d4bc)
 
 
 Задание 5
+
+Правка:
+
+https://github.com/BelcEV1985/ter-homeworks/blob/main/02/src/locals.tf
+
 
 ![5 3](https://github.com/user-attachments/assets/e5c7c278-4942-4ffc-a97c-f58767f0c2ba)
 
