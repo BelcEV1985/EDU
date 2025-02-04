@@ -1,3 +1,10 @@
+**Правка 04.02**
+Нашел хардкод в файлах providers.tf vms_platform.tf .
+
+https://github.com/BelcEV1985/ter-homeworks/blob/main/02/src/providers.tf
+
+https://github.com/BelcEV1985/ter-homeworks/blob/main/02/src/vms_platform.tf
+
 Задание 1
 
 Правка: 
