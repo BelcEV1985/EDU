@@ -4,30 +4,26 @@ TFLINT
 
 только уникальные типы ошибок :
 
+```
 11 issue(s) found:
-
 
 Warning: Module source “git::<https://github.com/udjin10/yandex_compute_instance.git?ref=main>“ uses a default branch as ref (main) (terraform\_module\_pinned\_source)
 
-
 Warning: Missing version constraint for provider “template” in required\_providers (terraform\_required\_providers)
-
 
 Warning: [Fixable] variable “default\_cidr” is declared but not used (terraform\_unused\_declarations)
 
-
 Warning: [Fixable] variable “vpc\_prod” is declared but not used (terraform\_unused\_declarations)
-
+```
 
 
 
 CHECKOV
-
+```
 “Ensure Terraform module sources use a commit hash”
 
-
 “Ensure Terraform module sources use a tag with a version number”
-
+```
 
 
 
@@ -35,14 +31,14 @@ CHECKOV
 
 
 2.1
-
+```
 git init
 git remote add origin git@github.com:BelcEV1985/terraform-05.git
 git add .
-git commit -m “Initial commit”**
+git commit -m “Initial commit”
 git branch -M main
 git push -u origin main
-
+```
 -----------------------------------------
 
 
@@ -67,31 +63,29 @@ git commit -m “s3 backet - terraform-05”
 
 terraform console:
 
- ╷
- │ Error: Error acquiring the state lock
+```
+Error: Error acquiring the state lock
  
+Error message: operation error DynamoDB: PutItem, https response error StatusCode: 400, RequestID:
+a733725d-7948-4cf9-9428-7b2d1f249eba, ConditionalCheckFailedException: Condition not satisfied
  
- │ Error message: operation error DynamoDB: PutItem, https response error StatusCode: 400, RequestID:
- │ a733725d-7948-4cf9-9428-7b2d1f249eba, ConditionalCheckFailedException: Condition not satisfied
-  
- 
- │   Lock Info:
- │   ID:        76840236-7783-ca65-f46c-ffd4604405c3
- │   Path:      sad-tfstate/terraform.tfstate
- │   Operation: OperationTypeInvalid
- │   Who:       ELECTRO\victorsh@LOGRUS
- │   Version:   1.8.4
- │   Created:   2024-11-20 14:39:19.5853771 +0000 UTC
- │   Info:
- │
- │
- │ Terraform acquires a state lock to protect the state from being written
- │ by multiple users at the same time. Please resolve the issue above and try
- │ again. For most commands, you can disable locking with the "-lock=false"
- │ flag, but this is not recommended.
+Lock Info:
+ID:        76840236-7783-ca65-f46c-ffd4604405c3
+Path:      sad-tfstate/terraform.tfstate
+Operation: OperationTypeInvalid
+Who:       ELECTRO\victorsh@LOGRUS
+Version:   1.8.4
+Created:   2024-11-20 14:39:19.5853771 +0000 UTC
+Info:
+Terraform acquires a state lock to protect the state from being written
+by multiple users at the same time. Please resolve the issue above and try
+again. For most commands, you can disable locking with the "-lock=false"
+flag, but this is not recommended.
+```
 
 Вывод:
 
+```
 terraform force-unlock 76840236-7783-ca65-f46c-ffd4604405c3
 
  Do you really want to force-unlock?
@@ -104,7 +98,7 @@ terraform force-unlock 76840236-7783-ca65-f46c-ffd4604405c3
 
  The state has been unlocked, and Terraform commands should now be able to
  obtain a new lock on the remote state
- 
+ ```
  -----------------------------------------
 
 
