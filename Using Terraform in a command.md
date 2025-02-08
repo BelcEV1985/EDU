@@ -9,11 +9,15 @@ TFLINT
 
 Warning: Module source “git::<https://github.com/udjin10/yandex_compute_instance.git?ref=main>“ uses a default branch as ref (main) (terraform\_module\_pinned\_source)
 
+
 Warning: Missing version constraint for provider “template” in required\_providers (terraform\_required\_providers)
+
 
 Warning: [Fixable] variable “default\_cidr” is declared but not used (terraform\_unused\_declarations)
 
+
 Warning: [Fixable] variable “vpc\_prod” is declared but not used (terraform\_unused\_declarations)
+
 
 
 
@@ -21,7 +25,9 @@ CHECKOV
 
 “Ensure Terraform module sources use a commit hash”
 
+
 “Ensure Terraform module sources use a tag with a version number”
+
 
 
 
