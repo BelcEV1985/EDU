@@ -69,10 +69,13 @@ terraform console:
 
  ╷
  │ Error: Error acquiring the state lock
- │
+ 
+ 
  │ Error message: operation error DynamoDB: PutItem, https response error StatusCode: 400, RequestID:
  │ a733725d-7948-4cf9-9428-7b2d1f249eba, ConditionalCheckFailedException: Condition not satisfied
- │ Lock Info:
+  
+ 
+ │   Lock Info:
  │   ID:        76840236-7783-ca65-f46c-ffd4604405c3
  │   Path:      sad-tfstate/terraform.tfstate
  │   Operation: OperationTypeInvalid
