@@ -129,6 +129,7 @@ https://github.com/BelcEV1985/terraform-05/pull/1
 
 **ЗАДАНИЕ 4**
 
+Забыл внести в main.tf тестил сбоку...
 
 ```hcl
  variable "ip_address" {
